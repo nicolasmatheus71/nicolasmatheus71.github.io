@@ -8,15 +8,14 @@ const SkillsList = () => {
         Presentación
       </h3>
 
-      {/* CONTENEDOR 16:9 RESPONSIVE */}
       <div className="relative w-full aspect-video rounded-2xl overflow-hidden border border-[var(--white-icon-tr)] bg-[#1414149c]">
         
-        {/* Placeholder temporal */}
-        <div className="absolute inset-0 flex items-center justify-center text-[var(--white-icon)]">
-          
-        </div>
-
-        {/* Cuando tengas el video, reemplaza el div de arriba por el iframe */}
+        <iframe
+          className="absolute inset-0 w-full h-full"
+          src="https://www.youtube.com/embed/7sohCUazW-s"
+          title="Presentación"
+          allowFullScreen
+        ></iframe>
 
       </div>
 
